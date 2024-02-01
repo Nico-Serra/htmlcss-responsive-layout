@@ -1,3 +1,6 @@
+
+/* #region common */
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +17,8 @@
     --resp-lighter:rgba(181, 221, 255, 1);
 }
 
+
+
 /* #region Debug */
 
 .debug header{
@@ -27,6 +32,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* #endregion common */
+
 
 /* #region Utilities */
 
@@ -145,6 +158,7 @@ header a{
 
     .phone > img{
         max-width: 100%;
+        width: 100%;
         display: block;
         
     }
@@ -162,7 +176,67 @@ header a{
 
     /* #endregion demo */
 
+    /* #region plan */
+    
+    .strategic{
+        color: var(--resp-light);
+    }
 
+    .strategic h3 , p{
+        padding: 2rem 0;
+
+    }
+
+    .card-white{
+        background-color: var(--resp-light);
+    }
+
+    .card-white i{
+        color: var(--resp-dark);
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+
+    .background-color{
+        background-color: var(--resp-primary);
+        display: inline-block;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        margin-bottom: 2rem;
+    }
+
+    /* #endregion plan */
+
+    /* #region testimonials */
+
+    .top-text{
+        padding-top: 2rem;
+    }
+
+    .top-text h3{
+        color: var(--resp-primary);
+        padding: 1rem 0;
+    }
+
+    .quote{
+        color: var(--resp-light);
+    }
+
+    .pic{
+        width: 80%;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    .pic > img{
+        aspect-ratio: 1;
+        border-radius: 50%;
+        
+    }
+
+    
+
+    /* #region testimonials */
 
 /* #endregion main */
 
