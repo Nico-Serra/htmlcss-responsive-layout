@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0.5px dashed;
 }
 
 /* color palette */
@@ -24,6 +23,10 @@
 
 
 /* #endregion Debug */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* #region Utilities */
 
@@ -47,6 +50,13 @@
         
     }
 
+    .btn{
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        padding: 0.35rem 0.7rem;
+    }
+
 /* #endregion Utilities */
 
 /* #region Header */
@@ -59,6 +69,27 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu-lg{
+    display: none;
+}
+
+.menu-lg > a{
+    margin-left: 1rem;
+}
+
+.logo img{
+    max-width: 100%;
+    display: block;
+    width: 50%;
+    padding: 0.8rem 0;
 }
 
 /* #endregion Header */
@@ -117,5 +148,13 @@ nav{
 
     .col-lg-6{
         width: calc((100% / 12)*6);
+    }
+
+    .menu-sm{
+        display: none;
+    }
+
+    .menu-lg{
+        display: block;
     }
 }
