@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0.5px dashed;
 }
 
 /* color palette */
@@ -12,3 +13,54 @@
     --resp-light:rgba(255, 255, 255, 1);
     --resp-accent:rgba(253, 193, 95, 1);
 }
+
+/* #region Debug */
+
+.debug header{
+    height: 50px;
+}
+
+
+
+/* #endregion Debug */
+
+/* #region Utilities */
+
+    .container{
+        width: 90%;
+        max-width: 724px;
+        margin: auto;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-12{
+        width: 100%;
+    }
+
+/* #endregion Utilities */
+
+/* #region Header */
+
+header{
+    background-color: var(--resp-secondary);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #endregion Header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
