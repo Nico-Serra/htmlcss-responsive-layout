@@ -34,20 +34,23 @@ body{
         width: 90%;
         max-width: 724px;
         margin: auto;
-        text-align: center;
+        
     }
 
     .row{
         display: flex;
         flex-wrap: wrap;
+        margin: 0 -1rem;
     }
 
     .col-12{
         width: 100%;
+        padding: 0 1rem;
     }
 
     .card{
-        
+        border-radius: 30px;
+        margin: 2rem 0;
     }
 
     .btn{
@@ -55,6 +58,16 @@ body{
         border-radius: 20px;
         color: black;
         padding: 0.35rem 0.7rem;
+    }
+
+    .container-sm{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .text-align{
+        text-align: center;
     }
 
 /* #endregion Utilities */
@@ -108,6 +121,49 @@ header a{
         background-color: var(--resp-primary);
     }
 
+    /* #region demo */
+
+    .top-c > h3, .container-sm > h3{
+        color: var(--resp-secondary);
+        padding: 2rem 0;
+    }
+
+    .btn-lg{
+        text-decoration: none;
+        color: var(--resp-light);
+        background-color: var(--resp-secondary);
+        border-radius: 20px;
+        padding: 0.5rem 0.8rem;
+        display: block;
+        width: 70%;
+    }
+
+    .button{
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .phone > img{
+        max-width: 100%;
+        display: block;
+        
+    }
+
+    .container-sm > i{
+        font-size: 80px;
+        display: block;
+        color: var(--resp-secondary);
+        padding: 2rem 0 1rem 0;
+    }
+
+    .container-sm > p{
+        padding-bottom: 2rem;
+    }
+
+    /* #endregion demo */
+
+
+
 /* #endregion main */
 
 /* #region footer */
@@ -148,6 +204,12 @@ header a{
 
     .col-lg-6{
         width: calc((100% / 12)*6);
+    }
+
+    .large{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
     }
 
     .menu-sm{
