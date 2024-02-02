@@ -108,7 +108,6 @@ p{
         text-decoration: none;
         padding: 0.5rem .8rem;
         border-radius: 20px;
-        font-weight: bold;
         margin: 2rem 0;
     }
 
@@ -326,9 +325,9 @@ header a{
 
     .pic span{
         position: absolute;
-        right: 0;
-        top: 0;
-        font-size: 4rem;
+        right: 10px;
+        top: 10px;
+        font-size: 5rem;
     }
 
     .text-left h2, .text-right span, .text-right h3{
@@ -345,7 +344,7 @@ header a{
     }
 
     .text-right .btn-sm{
-        font-size: 0.8rem;
+        font-size: 1rem;
         width: 60%;
     }
 
@@ -373,8 +372,8 @@ header a{
         }
 
         #start h4{
-            color: gray;
-            font-weight: 400;
+            color: lightgray;
+            font-weight: 500;
         }
 
         #start a{
