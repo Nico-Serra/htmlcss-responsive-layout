@@ -145,6 +145,7 @@ header a{
 
 .menu-lg > a{
     margin-left: 1rem;
+
 }
 
 .logo img{
@@ -403,7 +404,11 @@ header a{
 
 /* #endregion footer */
 
-/*  */
+/* #region hover */
+    .menu-lg a:hover{
+        border-bottom: 1px solid var(--resp-lighter) 
+    }
+/* #endregion hover */
 
 /* #region @media */
 @media screen and (min-width:768px) {
