@@ -381,6 +381,13 @@ header a{
     footer{
         background-color: var(--resp-dark); 
         color: var(--resp-light);
+        padding-bottom: 3rem;
+    }
+
+    footer p{
+        line-height: 1rem;
+        padding: 2rem 0;
+        
     }
 
 /* #endregion footer */
