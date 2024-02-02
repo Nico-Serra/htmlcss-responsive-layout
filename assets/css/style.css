@@ -99,6 +99,22 @@ p{
         border-radius: 20px;
     }
 
+    .btn-white{
+        display: inline-block;
+        width: 20%;
+        background-color: var(--resp-light);
+        color: var(--resp-primary);
+        text-align: center;
+        text-decoration: none;
+        padding: 0.5rem .8rem;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 2rem 0;
+    }
+
+    .white{
+        color: var(--resp-light);
+    }
 /* #endregion Utilities */
 
 /* #region Header */
@@ -326,6 +342,37 @@ header a{
     }
 
     /* #endregion about */
+
+    /* #region start */
+
+        #start{
+            color: var(--resp-light);
+            padding: 2rem 0;
+        }
+
+        #start h2{
+            color: var(--resp-accent);
+            font-size: xxx-large;
+            padding: 1rem 0;
+        }
+
+        #start h3{
+            font-size: xx-large;
+        }
+
+        #start h4{
+            color: gray;
+            font-weight: 400;
+        }
+
+        #start a{
+            padding: 1rem 0;
+        }
+
+
+
+
+    /* #endregion start */
 
 /* #endregion main */
 
