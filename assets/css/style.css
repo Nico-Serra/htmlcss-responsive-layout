@@ -225,12 +225,14 @@ header a{
 
     .card-white{
         background-color: var(--resp-light);
+        
     }
 
     .card-white i{
         color: var(--resp-dark);
         font-size: 1.2rem;
         padding: 2rem;
+        
     }
 
     .card-white h3{
@@ -437,6 +439,10 @@ header a{
         margin: 0 -1rem;
     }
 
+
+    .card-white{
+        margin: 0 1rem;
+    }
 
     .phone{
         width: 100%;
