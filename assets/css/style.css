@@ -30,7 +30,7 @@
 /* #endregion Debug */
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 img{
@@ -60,6 +60,7 @@ p{
         padding:  2rem 0;
         justify-content: space-between;
         gap: 1rem;
+        margin: 0 1rem;
     }
 
     .col-12{
@@ -79,7 +80,6 @@ p{
     }
 
     .container-sm{
-        width: 90%;
         margin: auto;
         
     }
@@ -114,6 +114,10 @@ p{
 
     .white{
         color: var(--resp-light);
+    }
+
+    .width-40{
+        width: 100%;
     }
 /* #endregion Utilities */
 
@@ -229,6 +233,10 @@ header a{
         padding: 2rem;
     }
 
+    .card-white h3{
+        color: black
+    }
+
     .background-color{
         background-color: var(--resp-primary);
         display: inline-block;
@@ -296,9 +304,12 @@ header a{
     }
 
     .with{
-        padding:1rem 2rem 2rem;
+        padding:1rem 1rem 2rem;
     }
 
+    #benefits .card-white{
+        height: 100%;
+    }
     
 
     /* #endregion benefits */
@@ -392,7 +403,9 @@ header a{
 
 /* #endregion footer */
 
-/* region @media */
+/*  */
+
+/* #region @media */
 @media screen and (min-width:768px) {
     
     #demo .row{
@@ -443,7 +456,7 @@ header a{
     }
 
     .text-right > .pic{
-        width: 50%;
+        width: 100%;
     }
 
 }
@@ -466,6 +479,10 @@ header a{
     .large{
         display: flex;
         justify-content: space-between;
+    }
+
+    .margin-lg{
+        margin: 10rem 5rem 0;
     }
 
     .top-c{
@@ -495,3 +512,5 @@ header a{
         max-width: 1152px;
     }
 }
+
+/* #endregion @media */
