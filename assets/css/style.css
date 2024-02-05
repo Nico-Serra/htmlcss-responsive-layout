@@ -90,23 +90,21 @@ p{
 
     .btn-sm{
         display: inline-block;
-        width: 40%;
         background-color: var(--resp-primary);
         color: white;
         text-align: center;
         text-decoration: none;
-        padding: 0.5rem .8rem;
+        padding: 0.5rem 1.8rem;
         border-radius: 20px;
     }
 
     .btn-white{
         display: inline-block;
-        width: 20%;
         background-color: var(--resp-light);
         color: var(--resp-primary);
         text-align: center;
         text-decoration: none;
-        padding: 0.5rem .8rem;
+        padding: 0.5rem 1.8rem;
         border-radius: 20px;
         margin: 2rem 0;
     }
@@ -182,9 +180,9 @@ header a{
         color: var(--resp-light);
         background-color: var(--resp-secondary);
         border-radius: 20px;
-        padding: 0.5rem 0.8rem;
+        padding: 0.5rem 2rem;
         display: block;
-        width: 70%;
+
     }
 
     .button{
@@ -377,13 +375,6 @@ header a{
             color: lightgray;
             font-weight: 500;
         }
-
-        #start a{
-            padding: 1rem 0;
-        }
-
-
-
 
     /* #endregion start */
 
